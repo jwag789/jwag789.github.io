@@ -1,0 +1,30 @@
+body {
+	background-color: #999;
+	padding-left: 200px;
+	padding-right: 200px;
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	color: #fff;
+}
+
+.lists {
+	background-color: #666;
+	padding: 5px;
+}
+
+.books {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.contact {
+	text-align: center;
+}
+
+#dbc1 {
+	background-color: #fff;
+	color: #003366;
+	text-align: center;
+}
