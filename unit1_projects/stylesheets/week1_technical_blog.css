@@ -1,0 +1,46 @@
+body {
+	background-color: #BDD2CC;
+}
+#header {
+	background-image:url('../images/skulls.png');
+	background-repeat: repeat;
+	text-align: center;
+	border-bottom:1px solid #423D99;
+	padding: 20px;
+	font-size: 30px;
+	line-height: 20px;
+	font-family:Ubuntu, Helvetica;
+}
+
+#container {
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 850px;
+	border: 1px solid #423D99;
+}
+
+#sub-content {
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: Josefin Slab, Helvetica;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+#footer {
+	background-color: #8E9E9A;
+	font-size: 14px;
+	font-family:Ubuntu, Helvetica;
+	padding: 10px;
+}
+
+a:link {color:#665333;}
+a:visited{color:#BDD2CC;}
+a:hover {color:#FFA200; text-decoration: none;}
+a:active: {color:#FFA200;}
+
+article h3{
+	color: #CC5814;
+}
