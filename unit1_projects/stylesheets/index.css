@@ -1,0 +1,22 @@
+body {
+	margin-top:100px;
+
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+	}
+
+#hello {
+	font-family: Source Code Pro, Helvetica, 'sans serif';
+	font-size: 50px;
+	text-align: center;
+}
+
+#links {
+	font-family: Open Sans Condensed, Helvetica, 'sans serif';
+	font-size: 18px;
+	text-align: center;
+}
