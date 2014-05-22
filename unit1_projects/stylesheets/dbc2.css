@@ -24,7 +24,7 @@ a:active: {color:yellow;}
 	display: block;
 	height: 200px;
 }
-
+ 
 #sidebar {
 	position: relative;
 	right: 30px;
@@ -36,7 +36,7 @@ a:active: {color:yellow;}
 	height: 700px;
 }
 
-#sub-content {
+#sub_content {
 	position: relative;
 	left: 30px;
 	border: 3px dashed blue;
@@ -48,6 +48,15 @@ a:active: {color:yellow;}
 	height: 670px;
 	font-size: 20px;
 }
+#sub_content p:first-child {
+	display: inline;
+}
+#sub_content:before {
+	content: "#";
+	background-color:red;
+}
+
+
 
 #footer {
 	border: 3px dashed blue;
