@@ -48,14 +48,18 @@ a:active: {color:yellow;}
 	height: 670px;
 	font-size: 20px;
 }
-#sub_content p:first-child {
-	display: inline;
-}
+
 #sub_content:before {
 	content: "#";
 	background-color:red;
+	padding-right: 50px;
 }
 
+#sub_content:after {
+	content: "#";
+	background-color:red;
+	padding-left: 50px;
+}
 
 
 #footer {
