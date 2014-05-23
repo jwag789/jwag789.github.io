@@ -90,3 +90,31 @@ article h3{
 		text-align: justify;	
 	}
 }
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* iPhone 5 only */
+    h2,h3{
+		text-align: center;
+	}
+	h3{
+		font-size: 1.7em;
+	}
+	h1{
+		font-size:1.2em;
+	}
+	.column1,
+	.column2{
+		width:100%;
+		float:none;
+
+	}
+	#container{
+		width:100%;
+		margin-left: 0;
+		margin-right: 0;
+
+	}
+	article p{
+		text-align: justify;	
+	}
+}
