@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Justin Wagner Week 1 Technical Blog</title>
+		<title>Justin Wagner Week 4 Technical Blog</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template.css">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,700,400italic' rel='stylesheet' type='text/css'>
@@ -16,28 +16,22 @@
 			</div>
 			
 			<div id="sub-content">
-				<h2>Week 1</h2>
+				<h2>Week 4</h2>
 				<article>
-					<p>In this blog post, I'll be talking about my three favorite websites. The sites I picked were chosen due to their creativity, usability and design. Take a look!</p><hr>
+					<p>In this post, I'll take a loog at the Enumerable#cycle method.</p><hr>
 				</article>
 				<article>
 					<div class="column1">
-					<h3>Twitter</h3>
-					
+					<h3>Enumerable#cycle</h3>
+					<img src="images/cycle.png">
 					</div>
 					<div class="column2">
-					<p></p>
+					<p>I found cycle to be an interesting method to use. When using cycle, you call it after an object, and give it a block to pass. The method will then cycle through each element in the array, and perform the action that is in the block. If an argument is given after the cycle, it will cycle through that amount of times. If no argument is given, it will cycle infinitely. Changes made through the first cycle will have no affect on the next cycles, and it will always be the same.</p>
+
+					<p>For example, look at the code pictured in this post. I take an array and call cycle on it. I used an argument of 3, so it will cycle through the array 3 times. I then use the block to puts the value of each number times 2. This will output the result 3 times, without changing it each time.</p>
+
+					<p>Cycle can be a really useful method if you know when to use it. If you just want to cycle through an array a certain amount of times, use this, but if you want to be able to be more specific and specify which elements in an array you want to cycle through, use something like each. Also remember, if you use cycle to make an infinite loop, keep all necessary code inside the cycle block, otherwise it won't run!</p>
 					</div>
-					<div class="column1">
-					<h3>YouTube</h3>
-					</div>
-					<div class="column2">
-					<p></p></div>
-					<div class="column1">
-					<h3>Be Moved - Sony</h3>
-					</div>
-					<div class="column2">
-					<p></p><div>
 				</article>
 			</div>
 			<div id="footer">
