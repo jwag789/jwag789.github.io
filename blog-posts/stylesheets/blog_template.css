@@ -1,0 +1,120 @@
+body {
+	background-color: #BDD2CC;
+}
+
+#container {
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border: 1px solid #423D99;
+}
+
+#header {
+	background-image:url('../images/skulls.png');
+	background-repeat: repeat;
+	text-align: center;
+	border-bottom:1px solid #423D99;
+	padding: 2%;
+	font-size: 30px;
+	line-height: 20px;
+	font-family:Ubuntu, Helvetica;
+}
+
+
+
+#sub-content {
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: Josefin Slab, Helvetica;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+#sub-content img{
+	width: 100%;
+}
+
+.column1 {
+	width: 40%;
+	float: left;
+	clear:both;
+}
+
+.column2 {
+	width: 50%;
+	float: right;
+}
+
+#footer {
+	clear:both;
+	background-color: #8E9E9A;
+	font-size: 14px;
+	font-family:Ubuntu, Helvetica;
+	padding: 10px;
+}
+
+a:link {color:#665333;}
+a:visited{color:#BDD2CC;}
+a:hover {color:#FFA200; text-decoration: none;}
+a:active: {color:#FFA200;}
+
+article h3{
+	color: #CC5814;
+}
+
+@media screen and (max-width: 768px){
+	h2,h3{
+		text-align: center;
+	}
+	h3{
+		font-size: 1.7em;
+	}
+	h1{
+		font-size:1.2em;
+	}
+	.column1,
+	.column2{
+		width:100%;
+		float:none;
+
+	}
+	#container{
+		width:100%;
+		margin-left: 0;
+		margin-right: 0;
+
+	}
+	article p{
+		text-align: justify;	
+	}
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* iPhone 5 only */
+    h2,h3{
+		text-align: center;
+	}
+	h3{
+		font-size: 1.7em;
+	}
+	h1{
+		font-size:1.2em;
+	}
+	.column1,
+	.column2{
+		width:100%;
+		float:none;
+
+	}
+	#container{
+		width:100%;
+		margin-left: 0;
+		margin-right: 0;
+
+	}
+	article p{
+		text-align: justify;	
+	}
+}
