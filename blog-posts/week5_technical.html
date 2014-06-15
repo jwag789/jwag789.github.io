@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Justin Wagner Week 5 Technical Blog</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template.css">
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,700,400italic' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	</head>
+
+	<body>
+		<div id="container" align="center">
+			<div id="header">
+				<h1>Tech Blog</h1>
+				<p>Justin W</p>
+			</div>
+			
+			<div id="sub-content">
+				<h2>Week 5</h2>
+				<h5>June 14, 2014</h5>
+				<article>
+					<p>In this blog post, I will be explaining classes in Ruby, and how and why to use them.</p><hr>
+				</article>
+				<article>
+					<div class="column1">
+					<h3>Classes</h3>
+					</div>
+					<div class="column2">
+					<p>What are Ruby Classes? Ruby is an Object Oriented Programming Language, and involves objects and classes. A class is essentially a type of object, such as Array, String, or a class you create, and objects are instances of that class. Instances of that class will follow those classes rules. For example, your array "[1,5,3,6]" is an object, and it's class is Array. The methods defined in the Array class will only work for objects that were created from the Array class's initialize method. Let's do an example with our own class, which we will base on a real life object.</p>
+					</div>
+					<div class="column1">
+					<h3>Creating an "Album" class</h3>
+					<a href="http://jwag789.github.io/blog-posts/images/classes.png"><img src="images/classes.png"></a>
+					</div>
+					<div class="column2">
+					<p>This <a href="http://jwag789.github.io/blog-posts/images/classes.png">image</a> shows the different steps it takes to define a class, and to define an instance of that class. It also shows how to call instance methods on those objects. We start by opening the Album class, and define its initialize method. Here, we pass in arguments that will become instance variables, or variables that we can use on any of the methods in the class, that will work on an instance of that class. You can also make instance variables that isn't also an argument for the method, such as my "signed" variable. It will always start off as false, so I don't need to pass it through initialize, where the other variables will always be different. <b>Instance variables</b> are helpful, because now I can use them in any method. For example, I'm "@year" to define my outcome when I "play" my album, and the outcome of my "@value" of a signed album, which I also use in the value method. I wanted to make <b>instance methods</b> (which are methods that will only work on instances of that class, rather than on the class itself) like "play" and something to get the album signed, to compare it to a real life object. Think of the variables we saved as your instance or your copy of that album. It may or may not be signed. That all depends on what you do with your album. If you hand it off to a rocker (use the method), you will get it signed. If the year is old enough, it will be worth much more.</p>
+					</div>
+					<div class="column1">
+					<h3>Output</h3>
+					<a href="http://jwag789.github.io/blog-posts/images/classes2.png"><img src="images/classes2.png"></a>
+					</div>
+					<div class="column2">
+					<p>As you can <a href="http://jwag789.github.io/blog-posts/images/classes2.png">see</a>, my Album class works and outputs the following statements with the instances I created. I created instances of my class by passing in .new to the class name, with the parameters, and saved it to a constant. It seem's my grandma is a fan of the Beatles, but not a fan of the Red Hot Chili Peppers. You can also see the value of my Californication album tripled since I got it signed! Showing this example was the best way for me to describe a class. It's great to use for a variety of purposes. When you want to create a group of objects that share similar properties that you want to pass in individually, use a class! I hope you enjoyed this tutorial!</p>
+					</div>
+				</article>
+			</div>
+			<div id="footer">
+				<p>&copy; Justin Wagner - <a href="http://jwag789.github.io/">My Index</a>
+			</div>
+		</div>
+	</body>
+</html>
