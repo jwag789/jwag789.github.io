@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of reset
+*/
+
+body {
+	background-color: #69D2E7;
+
+
+}
+
+#container{
+	padding-top:5%;
+	margin-bottom: 3%;
+}
+
+.subheader {
+	text-align: center;
+	width: 100%;
+	font-size: 5.5em;
+	line-height: 70%;
+	font-family: 'Paytone One', Helvetica, 'sans serif';
+}
+
+.welcome1{
+	color: #FFFFFF;
+}
+.welcome2{
+	color: #DCF5F5;
+}
+
+.welcome3{
+	color: #A7DBD8;
+}
+
+.welcome4{
+	color: #4D9AA9;
+}
+.links {
+
+	width: 40%;
+	padding: 0.5%;
+	padding-bottom: 1%;
+	border-bottom-right-radius: 7em 3em;
+	border-bottom-left-radius: 7em 3em; 
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+	background-color: #E64D62;
+	font-family: 'Paytone One', Helvetica, 'sans serif';
+	font-size: 1em;
+	text-align: center;
+}
+
+.links ul{
+}
+
+.links li{
+	color:#DCF5F5;
+	display:inline;
+	padding:5px;
+}
+
+.links ul a:link{
+	color:#DCF5F5;
+	text-decoration: none;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+.links ul a:visited{
+	color:#DCF5F5;
+	text-decoration: none;
+}
+
+.links ul a:hover{
+	color:#000000;
+	text-decoration: none;
+}
+
+nav {
+	border-top: 20px solid #4D9AA9;
+	border-bottom: 20px solid #FC9D9A;
+	background-color: #FFFFFF;
+	height: 200px;
+}
+
+nav a:link {
+	color:#E64D62;
+	text-decoration: none;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;	
+	}      /* unvisited link */
+nav a:visited {
+	color:#E64D62;
+	text-decoration: none;
+
+	}  /* visited link */
+nav a:hover {
+	color: #69D2E7;
+	/*color:#FC9D9A;*/
+	text-decoration: none;
+
+	}  /* mouse over link */
+nav a:active {
+	color:#E64D62;
+	text-decoration: none;
+
+	}  /* selected link */
+#navwrapper {
+
+	padding-top:1%;
+	margin-left:5%;
+	width: 90%;
+}
+
+nav article{
+	width: 9%;
+	float:left;
+	padding: 1%;
+}
+
+nav article h1{
+	color: #E64D62;
+	font-family: 'Paytone One', Helvetica, 'sans serif';
+	font-size: 0.8em;
+}
+
+nav article ul{
+	color: #E64D62;
+	font-family: 'Josefin Slab', Helvetica, 'sans serif';
+	padding-top:10%;
+	font-size: 0.8em
+}
+
+nav article li{
+	padding-top: 5%;
+}
+
+footer {
+	background-color: #E64D62;
+	height: 200px;
+}
+
+#contactwrapper {
+	padding-top:1%;
+	margin-left:5%;
+	width: 90%;
+}
+#contactleft{
+	float:left;
+	width: 25%;
+}
+#contactright{
+	float:right;
+	width: 75%;
+}
+#contactright a:link {
+	color:#DCF5F5;
+	text-decoration: none;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;	
+	}
+#contactright a:visited {
+	color:#DCF5F5;
+	text-decoration: none;
+}
+#contactright a:hover{
+	color:#69D2E7;
+	text-decoration: none;
+}
+
+footer h1{
+	color: #69D2E7;
+	font-family: 'Paytone One', Helvetica, 'sans serif';
+	font-size: 2em;
+}
+
+footer p{
+	color: #FFF;
+	font-family: 'Josefin Slab', Helvetica, 'sans serif';
+	padding-top:1%;
+	font-size: 1em
+}
+
+footer li{
+	padding-top: 5%;
+}
