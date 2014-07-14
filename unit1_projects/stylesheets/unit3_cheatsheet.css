@@ -61,12 +61,27 @@ body {
 	margin-bottom: 3%;
 }
 
-.subheader {
+#center {
+
 	text-align: center;
 	width: 100%;
+	
+	font-family: 'Raleway', Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#center h1{
+	font-family: 'Raleway', Helvetica, sans-serif;
 	font-size: 5.5em;
 	line-height: 70%;
-	font-family: 'Paytone One', Helvetica, 'sans serif';
+}
+
+#center h2{
+	font-family: 'Raleway', Helvetica, sans-serif;
+	text-align: center;
+	font-size:2em;
+	line-height: 130%;
+	color:#10365b;
 }
 
 .welcome1{
@@ -127,16 +142,34 @@ body {
 	color:#000000;
 	text-decoration: none;
 }
-
 nav {
-	border-top: 20px solid #4D9AA9;
-	border-bottom: 20px solid #FC9D9A;
-	background-color: #FFFFFF;
-	height: 200px;
+	color: #10365b;
+	background-color: #FFF;
+	opacity: 0.9;
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index: 2;
+	border-bottom: 1px solid #4588c9;
+}
+nav ul {
+	background-color: #FFF;
+	opacity: 0.8;
+	height:  20px;
+	text-align: center;
+	padding: 20px;
+}
+	
+nav li {
+	display:inline;
+	margin: 35px;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	
+
 }
 
 nav a:link {
-	color:#E64D62;
+	color:#10365b;
 	text-decoration: none;
 	-o-transition:.5s;
   -ms-transition:.5s;
@@ -146,21 +179,20 @@ nav a:link {
   transition:.5s;	
 	}      /* unvisited link */
 nav a:visited {
-	color:#E64D62;
+	color:#10365b;
 	text-decoration: none;
 
 	}  /* visited link */
 nav a:hover {
-	color: #69D2E7;
+	color: #ff5c00;
 	/*color:#FC9D9A;*/
 	text-decoration: none;
 
 	}  /* mouse over link */
 nav a:active {
-	color:#E64D62;
+	color:#10365b;
 	text-decoration: none;
 
-	}  /* selected link */
 #navwrapper {
 
 	padding-top:1%;
@@ -191,56 +223,6 @@ nav article li{
 	padding-top: 5%;
 }
 
-footer {
-	background-color: #E64D62;
-	height: 200px;
-}
+h2 {
 
-#contactwrapper {
-	padding-top:1%;
-	margin-left:5%;
-	width: 90%;
-}
-#contactleft{
-	float:left;
-	width: 25%;
-}
-#contactright{
-	float:right;
-	width: 75%;
-}
-#contactright a:link {
-	color:#DCF5F5;
-	text-decoration: none;
-	-o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;	
-	}
-#contactright a:visited {
-	color:#DCF5F5;
-	text-decoration: none;
-}
-#contactright a:hover{
-	color:#69D2E7;
-	text-decoration: none;
-}
-
-footer h1{
-	color: #69D2E7;
-	font-family: 'Paytone One', Helvetica, 'sans serif';
-	font-size: 2em;
-}
-
-footer p{
-	color: #FFF;
-	font-family: 'Josefin Slab', Helvetica, 'sans serif';
-	padding-top:1%;
-	font-size: 1em
-}
-
-footer li{
-	padding-top: 5%;
 }
